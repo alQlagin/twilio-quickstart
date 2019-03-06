@@ -46,7 +46,7 @@ jspm_packages
 .DS_Store
 package-lock.json
 
-# The generated index.js
+# The generated index.ts
 quickstart/public/index.js
 examples/bandwidthconstraints/public/index.js
 examples/codecpreferences/public/index.js

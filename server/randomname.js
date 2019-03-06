@@ -28,7 +28,7 @@ function randomItem(array) {
 }
 
 module.exports = function randomName() {
-  return randomItem(ADJECTIVES) +
-    randomItem(FIRST_NAMES) +
-    randomItem(LAST_NAMES);
+  return [randomItem(ADJECTIVES),
+    randomItem(FIRST_NAMES),
+    randomItem(LAST_NAMES)].join(' ');
 };
